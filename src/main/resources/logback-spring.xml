@@ -5,6 +5,8 @@
     <property name="APPDIR" value="community"/>
 
     <!-- error file -->
+
+    //zhushi
     <appender name="FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_PATH}/${APPDIR}/log_error.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
